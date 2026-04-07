@@ -1,0 +1,23 @@
+
+Top 20 feature pairs by mean(|Pearson|, |Spearman|):
+                  feature_1                   feature_2  pearson  spearman  mean_abs  mean_signed
+             $\overline{Z}$              $\overline{m}$   0.9983    0.9968    0.9975       0.9975
+                $\sigma(Z)$                 $\sigma(m)$   0.9954    0.9931    0.9942       0.9942
+ $E_\mathrm{g}^\mathrm{GW}$ $E_\mathrm{g}^\mathrm{mBJ}$   0.9830    0.9836    0.9833       0.9833
+ $E_\mathrm{g}^\mathrm{GW}$ $E_\mathrm{g}^\mathrm{PBE}$   0.9817    0.9792    0.9805       0.9805
+$E_\mathrm{g}^\mathrm{PBE}$ $E_\mathrm{g}^\mathrm{mBJ}$   0.9691    0.9710    0.9700       0.9700
+             $\overline{Z}$              $\overline{p}$   0.9657    0.9644    0.9650       0.9650
+             $\overline{p}$              $\overline{m}$   0.9532    0.9560    0.9546       0.9546
+          $\overline{\chi}$              $\overline{I}$   0.9530    0.9352    0.9441       0.9441
+             $\sigma(\chi)$                 $\sigma(I)$   0.8777    0.8687    0.8732       0.8732
+                        $V$              $\overline{p}$   0.8487    0.8841    0.8664       0.8664
+$E_\mathrm{g}^\mathrm{mBJ}$              $\sigma(\chi)$   0.8157    0.8213    0.8185       0.8185
+ $E_\mathrm{g}^\mathrm{GW}$              $\sigma(\chi)$   0.7988    0.8125    0.8056       0.8056
+                        $V$              $\overline{Z}$   0.7736    0.8032    0.7884       0.7884
+                        $V$              $\overline{m}$   0.7641    0.8061    0.7851       0.7851
+                        $V$              $\overline{r}$   0.7577    0.7423    0.7500       0.7500
+                $\sigma(Z)$                 $\sigma(p)$   0.7542    0.7415    0.7479       0.7479
+$E_\mathrm{g}^\mathrm{mBJ}$                 $\sigma(I)$   0.7659    0.7255    0.7457       0.7457
+$E_\mathrm{g}^\mathrm{PBE}$              $\sigma(\chi)$   0.7335    0.7393    0.7364       0.7364
+ $E_\mathrm{g}^\mathrm{GW}$                 $\sigma(I)$   0.7393    0.7054    0.7223       0.7223
+                $\sigma(p)$                 $\sigma(m)$   0.7124    0.7135    0.7130       0.7130

@@ -1,0 +1,746 @@
+
+
+############################################################
+Iteration: 1
+Current number of features: 18
+Current feature order: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+############################################################
+============================================================
+Evaluating pair: 6 8
+Pair rank: 1
+Pair rp: 0.9982674163544207
+Pair rs: 0.9968278922146379
+============================================================
+------------------------------------------------------------
+Running SVR for case: pair1_6_8_remove_6
+Feature order: [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+------------------------------------------------------------
+Running SVR for case: pair1_6_8_remove_8
+Feature order: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+FINAL SUMMARY FOR THIS PAIR
+Compared pair : 6 vs 8
+[1] Pair correlation
+rp = 0.9982674163544207
+rs = 0.9968278922146379
+[2] Target correlations
+Feature 6 : rp = -0.5216008369755679 , rs = -0.548721245710076 , score = 0.5351610413428219
+Feature 8 : rp = -0.514030625113687 , rs = -0.529912542371969 , score = 0.521971583742828
+[3] Max VIF in each reduced model
+If feature 6 is removed: max VIF = 442.570674976014
+If feature 8 is removed: max VIF = 447.82034390763044
+[4] Pairwise RMSE comparison
+If feature 6 is removed: RMSE = 0.2524259613916453 +/- 0.02364707071712167
+If feature 8 is removed: RMSE = 0.25179091264549736 +/- 0.025021692626369708
+[5] Pairwise paired t-test (two-sided)
+t-statistic = 0.30810908854663116
+p-value = 0.7613516465786418
+[6] Decision within pair
+Removed feature  : 8
+Retained feature : 6
+Reason           : No significant pairwise difference: remove the feature with smaller target correlation score.
+[7] Comparison to pristine 18-feature model (one-sided)
+candidate mean RMSE = 0.25179091264549736
+pristine mean RMSE  = 0.2466554564340247
+t-statistic         = 1.3850857094870221
+p-value             = 0.09103738851430798
+significant increase? = False
+accepted for next step? = True
+============================================================
+Accepted removal of feature 8
+Proceeding to next iteration with 17 features.
+
+
+############################################################
+Iteration: 2
+Current number of features: 17
+Current feature order: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+############################################################
+============================================================
+Evaluating pair: 13 15
+Pair rank: 1
+Pair rp: 0.9953660510906889
+Pair rs: 0.9931070138756561
+============================================================
+------------------------------------------------------------
+Running SVR for case: pair1_13_15_remove_13
+Feature order: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+------------------------------------------------------------
+Running SVR for case: pair1_13_15_remove_15
+Feature order: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+FINAL SUMMARY FOR THIS PAIR
+Compared pair : 13 vs 15
+[1] Pair correlation
+rp = 0.9953660510906889
+rs = 0.9931070138756561
+[2] Target correlations
+Feature 13 : rp = -0.35011294609167376 , rs = -0.3375782715098884 , score = 0.3438456088007811
+Feature 15 : rp = -0.3719439687453492 , rs = -0.37162215957018296 , score = 0.3717830641577661
+[3] Max VIF in each reduced model
+If feature 13 is removed: max VIF = 78.1417891671108
+If feature 15 is removed: max VIF = 81.24610794494855
+[4] Pairwise RMSE comparison
+If feature 13 is removed: RMSE = 0.24644693608598578 +/- 0.024555263755154665
+If feature 15 is removed: RMSE = 0.24518611398311618 +/- 0.02479395529220296
+[5] Pairwise paired t-test (two-sided)
+t-statistic = 1.5870190650453406
+p-value = 0.12901095430661277
+[6] Decision within pair
+Removed feature  : 13
+Retained feature : 15
+Reason           : No significant pairwise difference: remove the feature with smaller target correlation score.
+[7] Comparison to pristine 18-feature model (one-sided)
+candidate mean RMSE = 0.24644693608598578
+pristine mean RMSE  = 0.2466554564340247
+t-statistic         = -0.039066524420872994
+p-value             = 0.515377537735656
+significant increase? = False
+accepted for next step? = True
+============================================================
+Accepted removal of feature 13
+Proceeding to next iteration with 16 features.
+
+
+############################################################
+Iteration: 3
+Current number of features: 16
+Current feature order: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18]
+############################################################
+============================================================
+Evaluating pair: 1 2
+Pair rank: 1
+Pair rp: 0.9690669491508114
+Pair rs: 0.9710167900698203
+============================================================
+------------------------------------------------------------
+Running SVR for case: pair1_1_2_remove_1
+Feature order: [2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+------------------------------------------------------------
+Running SVR for case: pair1_1_2_remove_2
+Feature order: [1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+FINAL SUMMARY FOR THIS PAIR
+Compared pair : 1 vs 2
+[1] Pair correlation
+rp = 0.9690669491508114
+rs = 0.9710167900698203
+[2] Target correlations
+Feature 1 : rp = 0.9816949877448822 , rs = 0.9792403544516725 , score = 0.9804676710982774
+Feature 2 : rp = 0.9830075202567702 , rs = 0.9835992213272919 , score = 0.9833033707920311
+[3] Max VIF in each reduced model
+If feature 1 is removed: max VIF = 77.03391066751627
+If feature 2 is removed: max VIF = 74.69462501772182
+[4] Pairwise RMSE comparison
+If feature 1 is removed: RMSE = 0.386639077605472 +/- 0.041502901992424665
+If feature 2 is removed: RMSE = 0.25478328164510644 +/- 0.03265391128177057
+[5] Pairwise paired t-test (two-sided)
+t-statistic = 10.64519745670018
+p-value = 1.9046421449795447e-09
+[6] Decision within pair
+Removed feature  : 2
+Retained feature : 1
+Reason           : Significant pairwise difference: remove the feature whose exclusion gives lower RMSE.
+[7] Comparison to pristine 18-feature model (one-sided)
+candidate mean RMSE = 0.25478328164510644
+pristine mean RMSE  = 0.2466554564340247
+t-statistic         = 1.352034022150125
+p-value             = 0.09612023262021353
+significant increase? = False
+accepted for next step? = True
+============================================================
+Accepted removal of feature 2
+Proceeding to next iteration with 15 features.
+
+
+############################################################
+Iteration: 4
+Current number of features: 15
+Current feature order: [1, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18]
+############################################################
+============================================================
+Evaluating pair: 6 7
+Pair rank: 1
+Pair rp: 0.9656787634736739
+Pair rs: 0.9643948186863885
+============================================================
+------------------------------------------------------------
+Running SVR for case: pair1_6_7_remove_6
+Feature order: [1, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 16, 17, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+------------------------------------------------------------
+Running SVR for case: pair1_6_7_remove_7
+Feature order: [1, 3, 4, 5, 6, 9, 10, 11, 12, 14, 15, 16, 17, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+FINAL SUMMARY FOR THIS PAIR
+Compared pair : 6 vs 7
+[1] Pair correlation
+rp = 0.9656787634736739
+rs = 0.9643948186863885
+[2] Target correlations
+Feature 6 : rp = -0.5216008369755679 , rs = -0.548721245710076 , score = 0.5351610413428219
+Feature 7 : rp = -0.5226528567233752 , rs = -0.5134235645432035 , score = 0.5180382106332894
+[3] Max VIF in each reduced model
+If feature 6 is removed: max VIF = 17.668679544066848
+If feature 7 is removed: max VIF = 17.175908107798605
+[4] Pairwise RMSE comparison
+If feature 6 is removed: RMSE = 0.26155819452821855 +/- 0.03581562454718619
+If feature 7 is removed: RMSE = 0.26292425529912145 +/- 0.036524678597691936
+[5] Pairwise paired t-test (two-sided)
+t-statistic = -2.202011690020802
+p-value = 0.040217624623796806
+[6] Decision within pair
+Removed feature  : 7
+Retained feature : 6
+Reason           : No significant pairwise difference: remove the feature with smaller target correlation score.
+[7] Comparison to pristine 18-feature model (one-sided)
+candidate mean RMSE = 0.26292425529912145
+pristine mean RMSE  = 0.2466554564340247
+t-statistic         = 2.212856355991525
+p-value             = 0.019673371146455093
+significant increase? = False
+accepted for next step? = True
+============================================================
+Accepted removal of feature 7
+Proceeding to next iteration with 14 features.
+
+
+############################################################
+Iteration: 5
+Current number of features: 14
+Current feature order: [1, 3, 4, 5, 6, 9, 10, 11, 12, 14, 15, 16, 17, 18]
+############################################################
+============================================================
+Evaluating pair: 10 11
+Pair rank: 1
+Pair rp: 0.9530325326006934
+Pair rs: 0.9352348426886039
+============================================================
+------------------------------------------------------------
+Running SVR for case: pair1_10_11_remove_10
+Feature order: [1, 3, 4, 5, 6, 9, 11, 12, 14, 15, 16, 17, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+------------------------------------------------------------
+Running SVR for case: pair1_10_11_remove_11
+Feature order: [1, 3, 4, 5, 6, 9, 10, 12, 14, 15, 16, 17, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+FINAL SUMMARY FOR THIS PAIR
+Compared pair : 10 vs 11
+[1] Pair correlation
+rp = 0.9530325326006934
+rs = 0.9352348426886039
+[2] Target correlations
+Feature 10 : rp = 0.5740829827356543 , rs = 0.4828934873314615 , score = 0.5284882350335579
+Feature 11 : rp = 0.5981651188737429 , rs = 0.4853704513779151 , score = 0.541767785125829
+[3] Max VIF in each reduced model
+If feature 10 is removed: max VIF = 16.542147722267938
+If feature 11 is removed: max VIF = 16.77644233349853
+[4] Pairwise RMSE comparison
+If feature 10 is removed: RMSE = 0.2680558218611845 +/- 0.025811250680112394
+If feature 11 is removed: RMSE = 0.25113645147128405 +/- 0.026757018784370295
+[5] Pairwise paired t-test (two-sided)
+t-statistic = 3.8428915210014196
+p-value = 0.0010969314954923015
+[6] Decision within pair
+Removed feature  : 11
+Retained feature : 10
+Reason           : Significant pairwise difference: remove the feature whose exclusion gives lower RMSE.
+[7] Comparison to pristine 18-feature model (one-sided)
+candidate mean RMSE = 0.25113645147128405
+pristine mean RMSE  = 0.2466554564340247
+t-statistic         = 0.8787634570013058
+p-value             = 0.19525392216960102
+significant increase? = False
+accepted for next step? = True
+============================================================
+Accepted removal of feature 11
+Proceeding to next iteration with 13 features.
+
+
+############################################################
+Iteration: 6
+Current number of features: 13
+Current feature order: [1, 3, 4, 5, 6, 9, 10, 12, 14, 15, 16, 17, 18]
+############################################################
+============================================================
+Evaluating pair: 17 18
+Pair rank: 1
+Pair rp: 0.8776755854559933
+Pair rs: 0.8687293263185706
+============================================================
+------------------------------------------------------------
+Running SVR for case: pair1_17_18_remove_17
+Feature order: [1, 3, 4, 5, 6, 9, 10, 12, 14, 15, 16, 18]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+------------------------------------------------------------
+Running SVR for case: pair1_17_18_remove_18
+Feature order: [1, 3, 4, 5, 6, 9, 10, 12, 14, 15, 16, 17]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+FINAL SUMMARY FOR THIS PAIR
+Compared pair : 17 vs 18
+[1] Pair correlation
+rp = 0.8776755854559933
+rs = 0.8687293263185706
+[2] Target correlations
+Feature 17 : rp = 0.7988081876615251 , rs = 0.8124562740972305 , score = 0.8056322308793777
+Feature 18 : rp = 0.7392558118103635 , rs = 0.7054073809839586 , score = 0.722331596397161
+[3] Max VIF in each reduced model
+If feature 17 is removed: max VIF = 8.487145253268057
+If feature 18 is removed: max VIF = 8.134260140538064
+[4] Pairwise RMSE comparison
+If feature 17 is removed: RMSE = 0.27126261996849477 +/- 0.02766149084921415
+If feature 18 is removed: RMSE = 0.25751415642878334 +/- 0.02812958672607157
+[5] Pairwise paired t-test (two-sided)
+t-statistic = 2.7246284093218183
+p-value = 0.01345419043871683
+[6] Decision within pair
+Removed feature  : 18
+Retained feature : 17
+Reason           : No significant pairwise difference: remove the feature with smaller target correlation score.
+[7] Comparison to pristine 18-feature model (one-sided)
+candidate mean RMSE = 0.25751415642878334
+pristine mean RMSE  = 0.2466554564340247
+t-statistic         = 2.2086930407569834
+p-value             = 0.019839506865520364
+significant increase? = False
+accepted for next step? = True
+============================================================
+Accepted removal of feature 18
+Proceeding to next iteration with 12 features.
+
+
+############################################################
+Iteration: 7
+Current number of features: 12
+Current feature order: [1, 3, 4, 5, 6, 9, 10, 12, 14, 15, 16, 17]
+############################################################
+============================================================
+Evaluating pair: 3 6
+Pair rank: 1
+Pair rp: 0.7736327380832941
+Pair rs: 0.8032203924042185
+============================================================
+------------------------------------------------------------
+Running SVR for case: pair1_3_6_remove_3
+Feature order: [1, 4, 5, 6, 9, 10, 12, 14, 15, 16, 17]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+------------------------------------------------------------
+Running SVR for case: pair1_3_6_remove_6
+Feature order: [1, 3, 4, 5, 9, 10, 12, 14, 15, 16, 17]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+FINAL SUMMARY FOR THIS PAIR
+Compared pair : 3 vs 6
+[1] Pair correlation
+rp = 0.7736327380832941
+rs = 0.8032203924042185
+[2] Target correlations
+Feature 3 : rp = -0.22461476402603592 , rs = -0.25465899760505967 , score = 0.2396368808155478
+Feature 6 : rp = -0.5216008369755679 , rs = -0.548721245710076 , score = 0.5351610413428219
+[3] Max VIF in each reduced model
+If feature 3 is removed: max VIF = 7.888154118881201
+If feature 6 is removed: max VIF = 8.025178927574085
+[4] Pairwise RMSE comparison
+If feature 3 is removed: RMSE = 0.25532906327827903 +/- 0.025202335279365544
+If feature 6 is removed: RMSE = 0.25167522232890505 +/- 0.027417634639522293
+[5] Pairwise paired t-test (two-sided)
+t-statistic = 0.6652479951984451
+p-value = 0.5138869986024129
+[6] Decision within pair
+Removed feature  : 3
+Retained feature : 6
+Reason           : No significant pairwise difference: remove the feature with smaller target correlation score.
+[7] Comparison to pristine 18-feature model (one-sided)
+candidate mean RMSE = 0.25532906327827903
+pristine mean RMSE  = 0.2466554564340247
+t-statistic         = 1.6029250524296463
+p-value             = 0.06272288803081033
+significant increase? = False
+accepted for next step? = True
+============================================================
+Accepted removal of feature 3
+Proceeding to next iteration with 11 features.
+
+
+############################################################
+Iteration: 8
+Current number of features: 11
+Current feature order: [1, 4, 5, 6, 9, 10, 12, 14, 15, 16, 17]
+############################################################
+============================================================
+Evaluating pair: 1 17
+Pair rank: 1
+Pair rp: 0.7334943322721872
+Pair rs: 0.7393319284909016
+============================================================
+------------------------------------------------------------
+Running SVR for case: pair1_1_17_remove_1
+Feature order: [4, 5, 6, 9, 10, 12, 14, 15, 16, 17]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+------------------------------------------------------------
+Running SVR for case: pair1_1_17_remove_17
+Feature order: [1, 4, 5, 6, 9, 10, 12, 14, 15, 16]
+------------------------------------------------------------
+cycle # : 0
+cycle # : 1
+cycle # : 2
+cycle # : 3
+cycle # : 4
+cycle # : 5
+cycle # : 6
+cycle # : 7
+cycle # : 8
+cycle # : 9
+cycle # : 10
+cycle # : 11
+cycle # : 12
+cycle # : 13
+cycle # : 14
+cycle # : 15
+cycle # : 16
+cycle # : 17
+cycle # : 18
+cycle # : 19
+FINAL SUMMARY FOR THIS PAIR
+Compared pair : 1 vs 17
+[1] Pair correlation
+rp = 0.7334943322721872
+rs = 0.7393319284909016
+[2] Target correlations
+Feature 1 : rp = 0.9816949877448822 , rs = 0.9792403544516725 , score = 0.9804676710982774
+Feature 17 : rp = 0.7988081876615251 , rs = 0.8124562740972305 , score = 0.8056322308793777
+[3] Max VIF in each reduced model
+If feature 1 is removed: max VIF = 7.882303934104071
+If feature 17 is removed: max VIF = 4.87109317719853
+[4] Pairwise RMSE comparison
+If feature 1 is removed: RMSE = 0.9599473873951242 +/- 0.13114887346892784
+If feature 17 is removed: RMSE = 0.28920929057984573 +/- 0.02228763957349819
+[5] Pairwise paired t-test (two-sided)
+t-statistic = 23.043168285719
+p-value = 2.390865754845184e-15
+[6] Decision within pair
+Removed feature  : 17
+Retained feature : 1
+Reason           : Significant pairwise difference: remove the feature whose exclusion gives lower RMSE.
+[7] Comparison to pristine 18-feature model (one-sided)
+candidate mean RMSE = 0.28920929057984573
+pristine mean RMSE  = 0.2466554564340247
+t-statistic         = 7.861551940598413
+p-value             = 1.0849654527430063e-07
+significant increase? = True
+accepted for next step? = False
+============================================================
+Stopping: reduced model is significantly worse than pristine.
+Final model remains the current feature set: [1, 4, 5, 6, 9, 10, 12, 14, 15, 16, 17]
+
+
+============================================================
+GLOBAL FINAL SUMMARY
+============================================================
+Stop reason        : Stopped because the reduced model showed a significant RMSE increase relative to the pristine 18-feature model.
+Final feature set  : [1, 4, 5, 6, 9, 10, 12, 14, 15, 16, 17]
+Final n_features   : 11
+History CSV        : feature_elimination_history.csv
+============================================================
