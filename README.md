@@ -118,9 +118,8 @@ Check figures and logs.
 
 ## Citation
 ```
-Joohwi Lee and Kaito Miyamoto, arXiv 2503.04492 (2025); submitted to Scientific Reports.
+Joohwi Lee and Kaito Miyamoto, arXiv 2503.04492 (2025); accpeted in Scientific Reports (2026).
 ```
-When accepted, the reference will be changed into an accepted journal.
 
 ## NOTICE
 
